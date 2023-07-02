@@ -1,0 +1,52 @@
+.li-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 55%;
+  background-color: white;
+  position: relative;
+  border: solid 3px;
+  border-radius: 10px;
+  box-shadow: 3px 2px 1px;
+}
+
+.icon {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  width: 24px;
+  height: 24px;
+}
+
+.icon-check {
+  text-align: start;
+  position: absolute;
+  left: 20px;
+  cursor: pointer;
+}
+
+.icon-check:hover {
+  color: rgb(32, 255, 32)
+}
+
+.icon-check--active {
+  color: rgb(32, 255, 32);
+}
+
+
+.contentTodo--completed {
+  text-decoration: line-through;
+}
+
+.icon--delete-item {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+
+.icon--delete-item:hover {
+  color: red;
+}

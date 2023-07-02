@@ -1,7 +1,11 @@
 import React from "react"
+import "./TodoSearch.css"
 function TodoSearch() {
   return (
-    <input placeholder="Salir a correr" />
+    <div className="TodoSearch-container">
+      <input placeholder="Salir a correr" />
+
+    </div>
   )
 }
 

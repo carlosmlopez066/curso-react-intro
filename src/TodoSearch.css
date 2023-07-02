@@ -1,0 +1,22 @@
+.TodoSearch-container {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  height: 40px;
+  width: 60%;
+  box-shadow: 3px 2px 1px;
+  border-radius: 10px;
+  border: solid black;
+  padding-left: 10px;
+}
+
+::placeholder {
+  color: gray;
+  font-weight: bold;
+  padding-left: 20px;
+}
