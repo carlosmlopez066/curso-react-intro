@@ -1,0 +1,15 @@
+.EmptyTodo-Container {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 4px 3px 0px black;
+
+  background: linear-gradient(90deg, rgb(255, 230, 0),
+      rgb(255, 255, 255));
+  background-size: 400% 400%;
+  animation: loadingAnimation 2s ease-in-out infinite;
+}
