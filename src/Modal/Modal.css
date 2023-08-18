@@ -1,0 +1,23 @@
+.Modal-container {
+  background-color: rgba(255, 230, 0, .5);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+}
+
+.modal-box {
+  background-color: white;
+  width: 57%;
+  height: 31%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: -29%;
+  left: 22%;
+  border-radius: 10px;
+  box-shadow: 4px 6px 1px;
+}
