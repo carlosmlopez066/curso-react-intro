@@ -2,13 +2,16 @@ import "./TodoItem.css"
 import { FaCheck } from 'react-icons/fa'
 import { FaRegTimesCircle } from 'react-icons/fa'
 function TodoItem(props) {
+
   return (
 
     <li className="li-container">
       <span
         className={`icon icon-check ${props.
           completed && "icon-check--active"}`}
+        // onClick={props.onCompleted}
         onClick={props.onCompleted}
+
       >
         <FaCheck />
       </span>
