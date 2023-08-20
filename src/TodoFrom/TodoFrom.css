@@ -1,0 +1,55 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 300px;
+  height: 90%;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+textarea {
+  height: 76px;
+  width: calc(100% - 25px);
+  box-shadow: 3px 2px 1px;
+  border-radius: 10px;
+  border: solid black;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.TodoFrom-buttonContainer {
+  margin-top: 20px;
+}
+
+.TodoFrom-buttonContainer button {
+  width: 70px;
+  height: 35px;
+  box-shadow: 3px 2px 1px;
+  border-radius: 10px;
+  border: solid black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+.TodoFrom-button--add {
+  background-color: rgb(255, 230, 0);
+}
+
+.TodoFrom-button--add:hover {
+  background-color: rgb(178, 160, 0);
+}
+
+.TodoFrom-button--cancel:hover {
+  background-color: grey;
+}
+
+.TodoFrom-button--cancel {
+  margin-right: 70px;
+}

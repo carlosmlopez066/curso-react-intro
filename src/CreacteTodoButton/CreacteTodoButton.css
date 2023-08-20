@@ -1,4 +1,4 @@
-button {
+.AddButton {
   position: fixed;
   background-color: white;
   border-radius: 50%;
@@ -20,7 +20,7 @@ button {
   transition: .3 ease;
 }
 
-button:hover {
+.AddButton:hover {
 
   transform: rotate(224deg);
 
